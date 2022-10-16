@@ -41,7 +41,36 @@ II/ Backend(CSDL):
         password: Strings -> kẹp mã hóa MD5 -> tối đa 32 ký tự
         role_id: int -> gắn khóa phụ với Id của bảng Role -> role (id)
         ...
-3/ Bảng categories(Danh mục sản phẩm)
+    3/ Bảng categories(Danh mục sản phẩm)
         Id: int -> khóa chính tự tăng
+        name: Strings (Tối đa 50 ký tự)
+    4/ Bảng product(Bảng sản phẩm)
+        id: int -> khóa chính tự tăng
+        category_id: int -> gắn khóa vụ với id của bảng categories
+        name_product: Strings (Tối đa 250 ký tự) -> Tên sản phẩm hiển thị
+        price: Int
+        price_discount: int -> giá khuyến mãi
+        thumbnail: Strings -> (Tối đa 500 ký tự) (Hình ảnh sản phẩm)
+        description: longText
+        created_at: date_time
+        update_at: date_time
+    5/ Bảng gallery(quản lý hình ảnh của sản phẩm)
+        id: int -> khóa chính tự tăng
+        product_id: int -> gắn khóa phụ với bảng product tại cột id.
+        thumbnail -> Strings -> (Tối đa 500 ký tự) (Cột chứa string nguồn của ảnh)
+    6/ Bảng feedback(Quản lý phản hồi từ khách hàng)
+        id: int -> khóa chính tự tăng
+        fullname: Strings -> (Tối đa 50 ký tự)
+        email: Strings -> (Tối đa 100 ký tự)
+        phone_num: Int -> (Tối đa 20 ký tự)
+        title_feedback: Strings(Tối đa 200 ký tự)(tiêu đề feedback)
+        content_feedback: longText (phần nội dung khách hàng viết)
+    7/ Bảng (Quản lý đơn hàng)
+        7.1/ Bảng order(Bảng lưu trữ thông tin)
+        id: Int -> tự tăng
+        fullname: Strings
+        email: Strings
+        phone_num: Int
+
 
 
