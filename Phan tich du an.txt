@@ -1,0 +1,47 @@
+I/ Frontend: Trang chủ động
+    1/ Thành phần:
+        a/ Người dùng:
+        - Trang chủ(Trang chính)
+        - Trang đăng ký, đăng nhập tài khoản người dùng
+        - Trang danh sách sản phẩm (Bao gồm category xổ ra những danh mục sản phẩm)
+        - Trang chi tiết sản phẩm (Trang xem cụ thể thông tin chi tiết của sản phẩm)
+        - Trang giỏ hàng (Xem tất cả sản phẩm đã được đưa vào giỏ hàng)
+        - Trang checkout ()
+        - Trang thông báo kết quả đặt hàng.
+        - Trang xây dựng cấu hình của 1 bộ Máy tính (Chọn từng thành phần linh kiện để cấu thành một bộ máy tính hoàn thiện theo ý kiến của người dùng)
+        - Trang tin tức (Xem những thông tin liên quan đến công nghệ trong ngày)
+        - (Trang khai báo thông tin khách hàng)
+
+ ! Nếu người dùng đã đăng ký tài khoản khách hàng thì nhảy thẳng đến trang CHEKCOUT
+    -> Ngược lại nếu chưa có thì nhảy thêm 1 trang khai báo thông tin khách hàng cần thanh toán
+
+        b/ Admin Panel (Trang quản trị)
+        - Trang quản lý tài khoản
+            - Sẽ chia role: Admin và user
+                + Người dùng(Quản lý tài khoản của khách hàng  đã đăng ký)
+            - Trang quản lý người dùng (Thêm, sửa, xóa tài khoản)
+            - Trang đăng nhập của Admin.
+        - Trang quản lý danh mục sản phẩm(Thêm , sửa , xóa về một mục sản phẩm)
+        - Trang quản lý sản phẩm (Thêm,Sửa, Xóa 1 sản phẩm)
+        - Quản lý đơn hàng(hiển thị danh sách , sửa, xóa đơn hàng)-> hiển thị thêm trạng thái của đơn hàng.
+        - Quản lý danh mục liên hệ(phản hồi của người dùng).
+
+
+II/ Backend(CSDL):
+!Quy định chung: Element ID sẽ là khóa chính với giá trị tự tăng dần
+    1/ Bảng role(phân quyền loại tài khoản):
+        Id: int -> khóa chính tự tăng
+        name: Strings(varchar) -> tối đa 20 ký tự
+    2/ Bảng users:
+        Id: int -> khóa chính tự tăng
+        Fullname: Strings (Tối đa 50 ký tự)
+        email: Strings (Tối đa 100 ký tự)
+        phone_num: Strings (Tối đa 20 ký tự) -> nếu dùng Int thì dễ bị tràn
+        diachi: Strings (Tối đa 250 ký tự)
+        password: Strings -> kẹp mã hóa MD5 -> tối đa 32 ký tự
+        role_id: int -> gắn khóa phụ với Id của bảng Role -> role (id)
+        ...
+3/ Bảng categories(Danh mục sản phẩm)
+        Id: int -> khóa chính tự tăng
+
+
