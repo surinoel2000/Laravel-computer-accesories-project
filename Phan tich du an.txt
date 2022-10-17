@@ -66,16 +66,16 @@ II/ Backend(CSDL):
         title_feedback: Strings(Tối đa 200 ký tự)(tiêu đề feedback)
         content_feedback: longText (phần nội dung khách hàng viết)
     7/ Bảng (Quản lý đơn hàng)
-            7.1/ Bảng order(Bảng lưu trữ thông tin)
-                id: Int -> tự tăng
-                fullname: Strings
-                email: Strings
-                phone_num: Strings
-                diachi: Strings
-                note: longText (yêu cầu của khách hàng về đơn hàng)
-                order_date: datetime (Thời gian của khách đã đặt đơn hàng)
-                status: int -> (trạng thái của đơn hàng như: pending(chờ duyệt), approve(đã duyệt),...)
-                total_money: int (tổng tiền đơn hàng)
+        7.1/ Bảng order(Bảng lưu trữ thông tin)
+        id: Int -> tự tăng
+        fullname: Strings
+        email: Strings
+        phone_num: Strings
+        diachi: Strings
+        note: longText (yêu cầu của khách hàng về đơn hàng)
+        order_date: datetime (Thời gian của khách đã đặt đơn hàng)
+        status: int -> (trạng thái của đơn hàng như: pending(chờ duyệt), approve(đã duyệt),...)
+        total_money: int (tổng tiền đơn hàng)
 
             7.2/ Bảng order_details(Bảng chi tiết đơn hàng của khách hàng đã đặt đơn)
                 id: Int -> tự tăng
@@ -87,6 +87,4 @@ II/ Backend(CSDL):
 
 
 
-
-
-
+có cl
