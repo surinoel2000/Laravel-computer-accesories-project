@@ -87,11 +87,7 @@ II/ Backend(CSDL):
 
 
 
-<<<<<<< HEAD
-Check extend
-=======
 
 
-
+Ara
 :3 :3 :3 :3
->>>>>>> PC
