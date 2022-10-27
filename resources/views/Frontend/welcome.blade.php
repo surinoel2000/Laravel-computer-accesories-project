@@ -87,10 +87,10 @@
                       <a class="page-scroll active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="page-scroll" href="#features">Features</a>
+                      <a class="page-scroll" href="#features">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                      <a class="page-scroll" href="#about">About</a>
+                      <a class="page-scroll" href="#about">Đăng nhập</a>
                     </li>
                   </ul>
                 </div>
@@ -112,7 +112,7 @@
       <div
         id="home"
         class="header-hero bg_cover"
-        style="background-image: url(assets/images/header/banner-bg.svg)"
+        style="background-image: url(assets/images/header/bgbanner.jpg alt""Banner")
       >
         <div class="container">
           <div class="row justify-content-center">
@@ -146,7 +146,7 @@
                   data-wow-duration="1.3s"
                   data-wow-delay="1.1s"
                 >
-                  Get Started
+                  Khám Phá
                 </a>
               </div>
               <!-- header hero content -->
@@ -160,7 +160,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="1.4s"
               >
-                <img src="assets/images/header/header-hero.png" alt="hero" />
+                <img src="assets/images/header/gearland.png" alt="hero" />
               </div>
               <!-- header hero image -->
             </div>
@@ -192,7 +192,7 @@
                 data-wow-duration="1s"
                 data-wow-delay="0.2s"
               >
-                <img src="assets/images/brands/uideck.svg" alt="brand" />
+                <img src="assets/images/brands/asuslogo.png" alt="brand"/>
               </div>
               <!-- single logo -->
               <div
@@ -200,7 +200,7 @@
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
-                <img src="assets/images/brands/ayroui.svg" alt="brand" />
+                <img src="assets/images/brands/msilogo.png" alt="brand" />
               </div>
               <!-- single logo -->
               <div
@@ -208,7 +208,7 @@
                 data-wow-duration="1.5s"
                 data-wow-delay="0.3s"
               >
-                <img src="assets/images/brands/graygrids.svg" alt="brand" />
+                <img src="assets/images/brands/nvidia.png" alt="brand" />
               </div>
               <!-- single logo -->
               <div
@@ -216,7 +216,7 @@
                 data-wow-duration="1.5s"
                 data-wow-delay="0.4s"
               >
-                <img src="assets/images/brands/lineicons.svg" alt="brand" />
+                <img src="assets/images/brands/gigalogo.png" alt="brand" />
               </div>
               <!-- single logo -->
               <div
@@ -225,7 +225,7 @@
                 data-wow-delay="0.5s"
               >
                 <img
-                  src="assets/images/brands/ecommerce-html.svg"
+                  src="assets/images/brands/corsairlogo.png"
                   alt="brand"
                 />
               </div>
@@ -278,11 +278,10 @@
               </div>
               <div class="services-content mt-30">
                 <h4 class="services-title">
-                  <a href="javascript:void(0)">Clean</a>
+                  <a href="javascript:void(0)">TRẢ GÓP 0%</a>
                 </h4>
                 <p class="text">
-                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
-                  seddiam nonu eirmod tempor invidunt labore.
+                  Chương trình khuyến mãi trả góp 0% lãi suất giá trị sản phẩm.
                 </p>
                 <a class="more" href="javascript:void(0)"
                   >Learn More <i class="lni lni-chevron-right"> </i>
@@ -385,12 +384,6 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="copyright d-sm-flex justify-content-between">
-                <div class="copyright-content">
-                  <p class="text">
-                    Designed and Developed by
-                    <a href="https://uideck.com" rel="nofollow">UIdeck</a>
-                  </p>
-                </div>
                 <!-- copyright content -->
               </div>
               <!-- copyright -->
