@@ -17,6 +17,22 @@ Route::get('/', function () {
     return view('Frontend.welcome');
 });
 
+Route::get('/index', function () {
+    return view('Frontend.index');
+});
+
+Route::get('/checkout', function () {
+    return view('Frontend.checkout');
+});
+
+Route::get('/store', function () {
+    return view('Frontend.store');
+});
+
+Route::get('/product', function () {
+    return view('Frontend.product');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
