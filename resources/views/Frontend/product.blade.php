@@ -64,7 +64,7 @@
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-									<img src="assetss/img/logo.png" alt="">
+									<img src="assetss/img/logostore.png" alt="">
 								</a>
 							</div>
 						</div>

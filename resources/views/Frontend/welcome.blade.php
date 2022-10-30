@@ -1,4 +1,3 @@
-@extends('Frontend.layouts.app')
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -62,7 +61,7 @@
             <div class="col-lg-12">
               <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html">
-                  <img src="assets/images/logo/logo.svg" alt="Logo" />
+                  <img src="assets/images/logo/logostore.png" alt="Logo" />
                 </a>
                 <button
                   class="navbar-toggler"
@@ -146,7 +145,7 @@
                   data-wow-duration="1.3s"
                   data-wow-delay="1.1s"
                 >
-                  Khám Phá
+                  SHOPPING NOW
                 </a>
               </div>
               <!-- header hero content -->
