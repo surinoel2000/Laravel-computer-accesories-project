@@ -60,7 +60,7 @@
           <div class="row">
             <div class="col-lg-12">
               <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index">
                   <img src="assets/images/logo/logostore.png" alt="Logo" />
                 </a>
                 <button
@@ -140,7 +140,7 @@
                   diam nonumy eirmod tempor
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="index"
                   class="main-btn wow fadeInUp"
                   data-wow-duration="1.3s"
                   data-wow-delay="1.1s"
