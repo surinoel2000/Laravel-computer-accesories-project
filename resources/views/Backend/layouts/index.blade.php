@@ -31,7 +31,7 @@
 <div class="wrapper">
 
   <!-- Navbar -->
-  @include('Backend.admin.top-nav')
+    @include('Backend.admin.top-nav')
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->

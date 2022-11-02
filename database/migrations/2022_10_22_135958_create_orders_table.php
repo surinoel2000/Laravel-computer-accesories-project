@@ -20,9 +20,9 @@ class CreateOrdersTable extends Migration
             $table->string('email',100)->nullable();
             $table->string('phone_num',20)->nullable();
             $table->string('diachi',250)->nullable();
-            $table->longText('note');
+            $table->longText('note');//ghi chu cua khach hang
             $table->timestamp('order_date');
-            $table->integer('order_status');
+            $table->integer('order_status');//tinh trang don hang
             $table->integer('total_money');
         });
     }

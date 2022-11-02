@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/index', function () {
-    return view('Frontend.index');
+  return view('Frontend.index');
 });
 
 Route::get('/checkout', function () {
@@ -26,16 +26,26 @@ Route::get('/checkout', function () {
 });
 
 Route::get('/store', function () {
-    return view('Frontend.store');
+   return view('Frontend.store');
 });
 
 Route::get('/product', function () {
     return view('Frontend.product');
 });
 
-Auth::routes();
+Route::get('/register', function () {
+    return view('Frontend.register');
+});
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/login', function () {
+    return view('Frontend.login');
+});
+
+
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
 
 Route::prefix('admin')->group(function (){
     Route::get('/dashboard',function(){
