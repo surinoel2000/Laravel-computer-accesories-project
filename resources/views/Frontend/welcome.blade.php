@@ -88,9 +88,6 @@
                     <li class="nav-item">
                       <a class="page-scroll" href="#features">Trang chủ</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#about">Đăng nhập</a>
-                    </li>
                   </ul>
                 </div>
                 <!-- navbar collapse -->

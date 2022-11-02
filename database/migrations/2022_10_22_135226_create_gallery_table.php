@@ -1,3 +1,4 @@
+
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -16,7 +17,7 @@ class CreateGalleryTable extends Migration
         Schema::create('gallery', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('product_id');
-            $table->string('thumbnail_url');
+            $table->string('thumbnail_url',500)->nullable();
         });
     }
 
