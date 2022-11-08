@@ -186,10 +186,27 @@
 		</nav>
 		<!-- /NAVIGATION -->
 
-		<!-- SECTION -
-		<div class="section">
-
-		</div>
+		<!-- SECTION -->
+        <!--Section-->
+        <div class="section">
+            <div class="login-box">
+                <h1> Tạo tài khoản </h1>
+                <form>
+                    <input class="input" type="text" placeholder="Họ tên">
+                    <label></label>
+                    <input class="input" type="text" placeholder="Email">
+                    <label></label>
+                    <input class="input" type="text" placeholder="Số điện thoại">
+                    <label></label>
+                    <input class="input" type="password" placeholder="Mật khẩu">
+                    <label></label>
+                    <hr>
+                    <input id="btn-login" class="primary-btn" type="submit" value="Đăng nhập">
+                    <hr>
+                    <label> Chưa có tài khoản? <a href="register">Đăng ký tại đây</label>
+                </form>
+            </div>
+        </div>
 
 
 

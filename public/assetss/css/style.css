@@ -66,6 +66,30 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin: 0 0 10px;
 }
+    .layout-login{
+        background-color: #f0f0f0;
+        border: auto solid;
+        margin: auto;
+        border:
+    }
+    .login-box{
+        background-color: #f0f0f0;
+        width: 300px;
+        height: auto;
+        margin: 0px auto;
+        border: #D10024 1px solid;
+    }
+
+    #btn-login {
+
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translateY(-50%, -50%);
+        transform: rotateX(-50%, -50%);
+    }
+
 
 a {
   color: #2B2D42;
@@ -92,7 +116,7 @@ ul, ol {
 
 .primary-btn {
   display: inline-block;
-  padding: 12px 30px;
+  padding: 10px 22px;
   background-color: #D10024;
   border: none;
   border-radius: 40px;
@@ -108,7 +132,16 @@ ul, ol {
   opacity: 0.9;
   color: #FFF;
 }
-
+.primary-btn.padding {
+    padding: auto;
+}
+.hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
 /*----------------------------*\
 	Inputs
 \*----------------------------*/
@@ -126,6 +159,7 @@ ul, ol {
 textarea.input {
   padding: 15px;
   min-height: 90px;
+
 }
 
 /*-- Number input --*/

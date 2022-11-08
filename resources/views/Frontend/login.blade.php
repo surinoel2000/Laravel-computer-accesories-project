@@ -186,12 +186,22 @@
 		</nav>
 		<!-- /NAVIGATION -->
 
-		<!-- SECTION -
-		<div class="section">
-
-		</div>
-
-
+        <!--Section-->
+        <div class="section">
+            <div class="login-box">
+                <h1> Đăng nhập </h1>
+                <form>
+                    <label></label>
+                    <input class="input-number" type="text" placeholder="Email">
+                    <label></label>
+                    <input class="input" type="password" placeholder="Mật khẩu">
+                    <hr>
+                    <input id="btn-login" class="primary-btn" type="submit" value="Đăng nhập">
+                    <hr>
+                    <label> Chưa có tài khoản? <a href="register">Đăng ký tại đây</label>
+                </form>
+            </div>
+        </div>
 
 		<!-- /NEWSLETTER -->
 
@@ -213,7 +223,7 @@
 									<li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
 								</ul>
 							</div>
-						</di
+						</div>
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
