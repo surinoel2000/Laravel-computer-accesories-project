@@ -38,127 +38,123 @@
 	<body>
 		<!-- HEADER -->
 		<header>
-			<!-- TOP HEADER -->
-			<div id="top-header">
-				<div class="container">
-					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +021-95-51-84</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> email@email.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
-					</ul>
-					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
-						<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
-					</ul>
-				</div>
-			</div>
-			<!-- /TOP HEADER -->
+						<!-- TOP HEADER -->
+                        <div id="top-header">
+                            <div class="container">
+                                <ul class="header-links pull-left">
+                                    <li><a href="#"><i class="fa fa-phone"></i> +021-95-51-84</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope-o"></i> email@email.com</a></li>
+                                    <li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
+                                </ul>
+                                <ul class="header-links pull-right">
+                                    <li><a href="#"><i class="fa fa-envelope"></i>Phản hồi</a></li>
+                                    <li><a href="#"><i class="fa fa-user-o"></i> Tài khoản</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /TOP HEADER -->
 
-			<!-- MAIN HEADER -->
-			<div id="header">
-				<!-- container -->
-				<div class="container">
-					<!-- row -->
-					<div class="row">
-						<!-- LOGO -->
-						<div class="col-md-3">
-							<div class="header-logo">
-								<a href="index" class="logo">
-									<img src="assetss/img/logostore.png" alt="">
-								</a>
-							</div>
-						</div>
-						<!-- /LOGO -->
+                        <!-- MAIN HEADER -->
+                        <div id="header">
+                            <!-- container -->
+                            <div class="container">
+                                <!-- row -->
+                                <div class="row">
+                                    <!-- LOGO -->
+                                    <div class="col-md-3">
+                                        <div class="header-logo">
+                                            <a href="#" class="logo">
+                                                <img src="assetss/img/logostore.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- /LOGO -->
 
-						<!-- SEARCH BAR -->
-						<div class="col-md-6">
-							<div class="header-search">
-								<form>
-									<select class="input-select">
-										<option value="0">All Categories</option>
-										<option value="1">Category 01</option>
-										<option value="1">Category 02</option>
-									</select>
-									<input class="input" placeholder="Search here">
-									<button class="search-btn">Search</button>
-								</form>
-							</div>
-						</div>
-						<!-- /SEARCH BAR -->
+                                    <!-- SEARCH BAR -->
+                                    <div class="col-md-6">
+                                        <div class="header-search">
+                                            <form>
+                                                <select class="input-select">
+                                                    <option value="0"></option>
+                                                </select>
+                                                <input class="input" placeholder="Nhập tên sản phẩm">
+                                                <button class="search-btn">Tìm</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- /SEARCH BAR -->
 
-						<!-- ACCOUNT -->
-						<div class="col-md-3 clearfix">
-							<div class="header-ctn">
-								<!-- Wishlist -->
-								<div>
-									<a href="#">
-										<i class="fa fa-heart-o"></i>
-										<span>Your Wishlist</span>
-										<div class="qty">2</div>
-									</a>
-								</div>
-								<!-- /Wishlist -->
+                                    <!-- ACCOUNT -->
+                                    <div class="col-md-3 clearfix">
+                                        <div class="header-ctn">
 
-								<!-- Cart -->
-								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
-										<div class="qty">3</div>
-									</a>
-									<div class="cart-dropdown">
-										<div class="cart-list">
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="assetss/img/product01.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
+                                            <!-- Build Cấu hình PC-->
+                                            <div class="dropdown">
+                                            <a clas="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                                <i class="fa fa-wrench" id="cursorr"></i>
+                                                <span>Xây dựng</span> <!-- thêm ... tùy chọn xây dựng cấu hình PC-->
+                                            </a>
+                                            </div>
+                                            <!-- Cart -->
+                                            <div class="dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                                    <i class="fa fa-shopping-cart" id="cursorr"></i>
+                                                    <span>Giỏ hàng</span>
+                                                    <div class="qty">3</div>
+                                                </a>
+                                                <div class="cart-dropdown">
+                                                    <div class="cart-list">
+                                                        <div class="product-widget">
+                                                            <div class="product-img">
+                                                                <img src="assetss/img/product01.png" alt="">
+                                                            </div>
+                                                            <div class="product-body">
+                                                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                                                <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+                                                            </div>
+                                                            <button class="delete"><i class="fa fa-close"></i></button>
+                                                        </div>
 
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="assetss/img/product02.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-										</div>
-										<div class="cart-summary">
-											<small>3 Item(s) selected</small>
-											<h5>SUBTOTAL: $2940.00</h5>
-										</div>
-										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
-										</div>
-									</div>
-								</div>
-								<!-- /Cart -->
+                                                        <div class="product-widget">
+                                                            <div class="product-img">
+                                                                <img src="assetss/img/product02.png" alt="">
+                                                            </div>
+                                                            <div class="product-body">
+                                                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                                                <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
+                                                            </div>
+                                                            <button class="delete"><i class="fa fa-close"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cart-summary">
+                                                        <small>3 Item(s) selected</small>
+                                                        <h5>SUBTOTAL: $2940.00</h5>
+                                                    </div>
+                                                    <div class="cart-btns">
+                                                        <a href="#">View Cart</a>
+                                                        <a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /Cart -->
 
-								<!-- Menu Toogle -->
-								<div class="menu-toggle">
-									<a href="#">
-										<i class="fa fa-bars"></i>
-										<span>Menu</span>
-									</a>
-								</div>
-								<!-- /Menu Toogle -->
-							</div>
-						</div>
-						<!-- /ACCOUNT -->
-					</div>
-					<!-- row -->
-				</div>
-				<!-- container -->
-			</div>
-			<!-- /MAIN HEADER -->
+                                            <!-- Menu Toogle -->
+                                            <div class="menu-toggle">
+                                                <a href="#">
+                                                    <i class="fa fa-bars"></i>
+                                                    <span>Menu</span>
+                                                </a>
+                                            </div>
+                                            <!-- /Menu Toogle -->
+                                        </div>
+                                    </div>
+                                    <!-- /ACCOUNT -->
+                                </div>
+                                <!-- row -->
+                            </div>
+                            <!-- container -->
+                        </div>
+                        <!-- /MAIN HEADER -->
 		</header>
 		<!-- /HEADER -->
 
@@ -200,9 +196,9 @@
                     <label></label>
                     <input class="input" type="password" placeholder="Mật khẩu">
                     <label></label>
-                    <hr>
-                    <input id="btn-login" class="primary-btn" type="submit" value="Đăng nhập">
-                    <hr>
+
+                    <input id="btn-login" class="primary-btn" type="submit" value="Đăng ký">
+
                     <label> Chưa có tài khoản? <a href="register">Đăng ký tại đây</label>
                 </form>
             </div>
@@ -295,7 +291,7 @@
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>

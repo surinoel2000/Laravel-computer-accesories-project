@@ -47,8 +47,8 @@
 						<li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
-						<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+						<li><a href="#"><i class="fa fa-envelope"></i>Phản hồi</a></li>
+						<li><a href="#"><i class="fa fa-user-o"></i> Tài khoản</a></li>
 					</ul>
 				</div>
 			</div>
@@ -63,7 +63,7 @@
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="index" class="logo">
+								<a href="#" class="logo">
 									<img src="assetss/img/logostore.png" alt="">
 								</a>
 							</div>
@@ -75,12 +75,10 @@
 							<div class="header-search">
 								<form>
 									<select class="input-select">
-										<option value="0">All Categories</option>
-										<option value="1">Category 01</option>
-										<option value="1">Category 02</option>
+										<option value="0"></option>
 									</select>
-									<input class="input" placeholder="Search here">
-									<button class="search-btn">Search</button>
+									<input class="input" placeholder="Nhập tên sản phẩm">
+									<button class="search-btn">Tìm</button>
 								</form>
 							</div>
 						</div>
@@ -89,21 +87,19 @@
 						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
-								<!-- Wishlist -->
-								<div>
-									<a href="#">
-										<i class="fa fa-heart-o"></i>
-										<span>Your Wishlist</span>
-										<div class="qty">2</div>
-									</a>
-								</div>
-								<!-- /Wishlist -->
 
+                                <!-- Build Cấu hình PC-->
+                                <div class="dropdown">
+                                <a clas="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                    <i class="fa fa-wrench" id="cursorr"></i>
+                                    <span>Xây dựng</span> <!-- thêm ... tùy chọn xây dựng cấu hình PC-->
+                                </a>
+                                </div>
 								<!-- Cart -->
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
+										<i class="fa fa-shopping-cart" id="cursorr"></i>
+										<span>Giỏ hàng</span>
 										<div class="qty">3</div>
 									</a>
 									<div class="cart-dropdown">
@@ -806,7 +802,7 @@
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>
