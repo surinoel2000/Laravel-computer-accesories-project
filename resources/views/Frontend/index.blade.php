@@ -48,7 +48,7 @@
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-envelope"></i>Phản hồi</a></li>
-						<li><a href="#"><i class="fa fa-user-o"></i> Tài khoản</a></li>
+						<li><a href="login"><i class="fa fa-user-o"></i> Tài khoản</a></li>
 					</ul>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
                                 </div>
 								<!-- Cart -->
 								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<a class="newsletter-follow" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart" id="cursorr"></i>
 										<span>Giỏ hàng</span>
 										<div class="qty">3</div>
