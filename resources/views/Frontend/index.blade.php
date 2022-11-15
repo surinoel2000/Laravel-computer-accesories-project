@@ -90,7 +90,7 @@
 
                                 <!-- Build Cấu hình PC-->
                                 <div class="dropdown">
-                                <a clas="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
                                     <i class="fa fa-wrench" id="cursorr"></i>
                                     <span>Xây dựng</span> <!-- thêm ... tùy chọn xây dựng cấu hình PC-->
                                 </a>

@@ -81,8 +81,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #btn-login {
-        margin: auto;
-        position: absolute;
+        margin-left: 25%;
+        /* position: absolute; */
         top: 50%;
         left: 50%;
         -ms-transform: translateY(-50%, -50%);
@@ -113,12 +113,14 @@ ul, ol {
 	Buttons
 \*----------------------------*/
 
-.primary-btn {
+.section .login-box form .primary-btn {
+
   display: inline-block;
   padding: 10px 22px;
   background-color: #D10024;
   border: none;
   border-radius: 40px;
+  width: 50%;
   color: #FFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -146,15 +148,35 @@ ul, ol {
 \*----------------------------*/
 
 /*-- Text input --*/
-
-.input {
-  height: 40px;
-  padding: 0px 15px;
-  border: 1px solid #E4E7ED;
-  background-color: #FFF;
-  width: 100%;
+.header-search form input{
+    height: 40px;
+    padding: 0px 15px;
+    border: 1px solid #E4E7ED;
+    background-color: #FFF;
+    width: auto;
+    margin-right: -4px;
 }
-
+.section .login-box h2{
+    color: rgb(198, 193, 185);
+    text-align: center;
+}
+.section .login-box form input {
+    height: 40px;
+    padding: 0px 15px;
+    /* border: 1px solid #E4E7ED; */
+    background-color: #FFF;
+    width: 90%;
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.section .login-box form label{
+    display: inline-block;
+    /* max-width: 100%; */
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding-left: 20px;
+}
 textarea.input {
   padding: 15px;
   min-height: 90px;
@@ -495,8 +517,11 @@ textarea.input {
 
 .header-logo .logo img {
   display: block;
+  max-height:80px;
 }
-
+.align-center{
+    align-items: center!important;
+}
 /*----------------------------*\
 	Search
 \*----------------------------*/

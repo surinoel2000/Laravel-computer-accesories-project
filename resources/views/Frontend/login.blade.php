@@ -59,9 +59,9 @@
                             <!-- container -->
                             <div class="container">
                                 <!-- row -->
-                                <div class="row">
+                                <div class="row align-center">
                                     <!-- LOGO -->
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="header-logo">
                                             <a href="#" class="logo">
                                                 <img src="assetss/img/logostore.png" alt="">
@@ -71,13 +71,13 @@
                                     <!-- /LOGO -->
 
                                     <!-- SEARCH BAR -->
-                                    <div class="col-md-6">
+                                    <div class="col-md-5">
                                         <div class="header-search">
                                             <form>
                                                 <select class="input-select">
                                                     <option value="0"></option>
                                                 </select>
-                                                <input class="input" placeholder="Nhập tên sản phẩm">
+                                                <input  placeholder="Nhập tên sản phẩm">
                                                 <button class="search-btn">Tìm</button>
                                             </form>
                                         </div>
@@ -185,15 +185,13 @@
         <!--Section-->
         <div class="section">
             <div class="login-box">
-                <h1> Đăng nhập </h1>
-                <form>
-                    <label></label>
+                <h2> Đăng nhập </h2>
+                <form method="POST" action="/admin/login">
                     <input class="input" type="email" placeholder="Email">
-                    <label></label>
                     <input class="input" type="password" placeholder="Mật khẩu">
 
                     <input id="btn-login" class="primary-btn" type="submit" value="Đăng nhập">
-                    <label> Chưa có tài khoản? <a href="register">Đăng ký tại đây</label>
+                    <label> Chưa có tài khoản? <a href="register">Đăng ký tại đây</a></label>
                 </form>
             </div>
         </div>
