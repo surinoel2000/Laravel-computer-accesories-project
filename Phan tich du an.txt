@@ -91,3 +91,21 @@ Enhance
 File nay se rework lai lan nua
 Ara
 :3 :3 :3 :3
+
+ALTER TABLE [users] ADD FOREIGN KEY ([role_id]) REFERENCES [role] ([id])
+GO
+
+ALTER TABLE [product] ADD FOREIGN KEY ([categories_id]) REFERENCES [categories] ([id])
+GO
+
+ALTER TABLE [order_details] ADD FOREIGN KEY ([product_id]) REFERENCES [product] ([id])
+GO
+
+ALTER TABLE [gallery] ADD FOREIGN KEY ([product_id]) REFERENCES [product] ([id])
+GO
+
+ALTER TABLE [order_details] ADD FOREIGN KEY ([order_id]) REFERENCES [orders] ([id])
+GO
+
+ALTER TABLE [orders] ADD FOREIGN KEY ([users_id]) REFERENCES [users] ([id])
+GO
