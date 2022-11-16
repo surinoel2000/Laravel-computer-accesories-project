@@ -63,7 +63,7 @@
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="#" class="logo">
+								<a href="index" class="logo">
 									<img src="assetss/img/logostore.png" alt="">
 								</a>
 							</div>
